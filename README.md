@@ -5,8 +5,8 @@
 Background
 =============
 
-This repositopry contains a workshop that Marcus Davy gave on 20 Feb 2014 in Palmy. Marcus used moa to steamline the analysis. This version is exactly teh same workshop except
-that it uses knitr as moe seems a wee bit out of date and not maintained these days. This versio also uses modules. If you don't have modules available (which you really should) then remove
+This repository contains a workshop that Marcus Davy gave on 20 Feb 2014 in Palmy. Marcus used moa to streamline the analysis. This version is exactly th same workshop except
+that it uses knitr as moe seems a wee bit out of date and not maintained these days. This version also uses modules. If you don't have modules available (which you really should) then remove
 the module call from your knitr scripts. As long as the system finds tassel 3 you are fine. 
 
 
@@ -15,9 +15,12 @@ Prerequisites
 
 [![Join the chat at https://gitter.im/biospectrabysequencing/gbs_rmd](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/biospectrabysequencing/gbs_rmd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+- wget
+- unzip
 - R (>3.1)
 - knitr
 - tassel 3
+- bowtie2
 - modules
 
 

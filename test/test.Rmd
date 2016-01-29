@@ -1,0 +1,14 @@
+# Sanity checks 
+
+```{r test-bash, engine='bash'}
+
+wget -h
+unzip -h
+bowtie2 -h
+run_pipeline.pl -h
+
+pandoc test.md -o test.html
+
+```
+
+
