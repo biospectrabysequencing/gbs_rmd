@@ -1,0 +1,15 @@
+# Download Maize Index from Dropbox 
+
+- Download data fomrm dropbox
+- unzip and delete zip afterwards
+- convert mark down to html to load in browser
+
+
+```{r test-bash, engine='bash'}
+
+wget -O GBS_Workshop_Maize.zip https://www.dropbox.com/sh/idwq4oo3uim31dw/AADW46CCFtxqnI4Kmjh_uAxoa?dl=1;
+unzip GBS_Workshop_Maize.zip
+rm GBS_Workshop_Maize.zip
+pandoc run.md -o run.html
+
+```
