@@ -1,0 +1,8 @@
+# Match tags to samples 
+
+
+```{r test-bash, engine='bash'}
+
+run_pipeline.pl -configFile SeqToTBTHDF5Plugin.xml
+
+```

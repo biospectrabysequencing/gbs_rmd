@@ -1,0 +1,8 @@
+# Pivot the tbt to prepare for SNP calling 
+
+
+```{r test-bash, engine='bash'}
+
+run_pipeline.pl  -configFile ./PivotTaxaTBTHDF5.xml
+
+```

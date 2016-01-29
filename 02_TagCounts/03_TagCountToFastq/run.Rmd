@@ -1,0 +1,9 @@
+# Convert to Fastq
+
+```{r test-bash, engine='bash'}
+
+run_pipeline.pl -configFile TagCountToFastq.xml
+pandoc run.md -o run.html
+
+
+```

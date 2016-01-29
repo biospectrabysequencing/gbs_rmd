@@ -1,0 +1,7 @@
+# Convert sam tags to tags on physical map (TOPM)
+
+```{r test-bash, engine='bash'}
+
+run_pipeline.pl -configFile SAMConverter.xml
+
+```
