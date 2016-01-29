@@ -1,0 +1,12 @@
+library(knitr)
+
+knit("00_AlignerIndices/run.Rmd")
+knit("01_RawSequence/run.Rmd")
+knit("02_TagCounts/01_IndividualTagCounts/run.Rmd")
+knit("02_TagCounts/02_MergedTagCounts/run.Rmd")
+knit("02_TagCounts/03_TagCountToFastq/run.Rmd")
+knit("03_SAM/run.Rmd")
+knit("04_TOPM/run.Rmd")
+knit("05_TBT/01_IndividualTBT/run.Rmd")
+knit("05_TBT/04_PivotMergedTaxaTBT/run.Rmd")
+knit("06_HapMap/run.Rmd")
