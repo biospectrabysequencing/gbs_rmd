@@ -2,10 +2,18 @@
 
 ```{r test-bash, engine='bash'}
 
-wget -h
+R --version
+RScript -e "library(knitr);"
+wget --version
+unzip --version
+wget --version
 unzip -h
 bowtie2 -h
 run_pipeline.pl -h
+pandoc --version
+module --version
+
+
 
 pandoc test.md -o test.html
 

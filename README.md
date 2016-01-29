@@ -22,6 +22,7 @@ Prerequisites
 - tassel 3
 - bowtie2
 - modules
+- pandoc
 
 
 Introduction
