@@ -3,7 +3,15 @@
 
 ```{r test-bash, engine='bash'}
 
-mkdir SNP_Caller
+if [! -d /output/genomic/TrainingData/BBS/gbs_rmd/06_HapMap/SNP_Caller];
+then
+    mkdir -p  /output/genomic/TrainingData/BBS/gbs_rmd/06_HapMap/SNP_Caller
+fi
+
+if [! -L 06_HapMap];
+then
+    ln -s  /output/genomic/TrainingData/BBS/gbs_rmd/06_HapMap
+fi
 
 module load tassel/3.0
 run_pipeline.pl -configFile ./SNP_Caller.xml

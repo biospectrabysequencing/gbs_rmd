@@ -2,7 +2,7 @@
 
 rm -f C08L7ACXX_6_fastq.gz 
 
-if [ -f /input/genomic/TrainingData/BBS/gbs_rmd/01_RawSequence/C08L7ACXX_6_fastq.gzi ]; 
+if [ -f /input/genomic/TrainingData/BBS/gbs_rmd/01_RawSequence/C08L7ACXX_6_fastq.gz ]; 
 then
     echo "File found";
     ln -s /input/genomic/TrainingData/BBS/gbs_rmd/01_RawSequence/C08L7ACXX_6_fastq.gz
