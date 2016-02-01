@@ -6,7 +6,8 @@
 
 ```{r test-bash, engine='bash'}
 
-unzip /input/genomic/TrainingData/BBS/gbs_rmd/00_AlignerIndices/GBS_Workshop_Maize.zip
+./load_data.sh
+
 pandoc run.md -o run.html
 
 ```

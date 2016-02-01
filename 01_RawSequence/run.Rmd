@@ -6,7 +6,7 @@
 
 ```{r test-bash, engine='bash'}
 
-ln -s /input/genomic/TrainingData/BBS/gbs_rmd/01_RawSequence/C08L7ACXX_6_fastq.gz
+./load_data.sh
 pandoc run.md -o run.html
 
 ```
