@@ -4,8 +4,12 @@
 ```{r test-bash, engine='bash'}
 
 mkdir SNP_Caller
+
 module load tassel/3.0
 run_pipeline.pl -configFile ./SNP_Caller.xml
+module unload tassel/3.0
+
 pandoc run.md -o run.html
+
 
 ```

@@ -2,8 +2,10 @@
 
 ```{r test-bash, engine='bash'}
 
+module load tassel/3.0
 run_pipeline.pl -configFile TagCountToFastq.xml
-pandoc run.md -o run.html
+module unload tassel/3.0
 
+pandoc run.md -o run.html
 
 ```

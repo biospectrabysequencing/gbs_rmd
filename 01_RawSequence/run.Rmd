@@ -1,12 +1,12 @@
 # Load data
 
-- load data from Dropbox
+- linking data from input for convenience
 - convert output to html for loading into the browser
 
 
 ```{r test-bash, engine='bash'}
 
-wget -O C08L7ACXX_6_fastq.gz "https://www.dropbox.com/s/vcrtcqunuxkwz90/C08L7ACXX_6_fastq.gz?dl=1";
+ln -s /input/genomic/TrainingData/BBS/gbs_rmd/01_RawSequence/C08L7ACXX_6_fastq.gz
 pandoc run.md -o run.html
 
 ```

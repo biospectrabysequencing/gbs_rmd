@@ -3,6 +3,8 @@
 
 ```{r test-bash, engine='bash'}
 
+module load tassel/3.0
 run_pipeline.pl -configFile SeqToTBTHDF5Plugin.xml
+module unload tassel/3.0
 
 ```
