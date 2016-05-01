@@ -9,11 +9,13 @@ tmp/
 *.cnt
 *.fq
 *.fasta
+*.fastq
+*.fastq.gz
 *.bt2
 *.zip
 *.gz
 *.h5
-
+*.bt2
 
 tt/
 .Rproj.user

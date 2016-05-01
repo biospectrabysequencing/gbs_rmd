@@ -1,0 +1,13 @@
+# Download Maize Index from Dropbox 
+
+- unzip index and delete zip afterwards
+- convert mark down to html to load in browser
+
+
+```{r test-bash, engine='bash'}
+
+./load_data.sh
+
+pandoc run.md -o run.html
+
+```

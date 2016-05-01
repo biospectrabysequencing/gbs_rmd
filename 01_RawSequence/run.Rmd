@@ -1,0 +1,12 @@
+# Load data
+
+- linking data from input for convenience
+- convert output to html for loading into the browser
+
+
+```{r test-bash, engine='bash'}
+
+./load_data.sh
+pandoc run.md -o run.html
+
+```

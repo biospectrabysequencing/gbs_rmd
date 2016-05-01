@@ -1,0 +1,10 @@
+# Pivot the tbt to prepare for SNP calling 
+
+
+```{r test-bash, engine='bash'}
+
+module load tassel/3.0
+run_pipeline.pl  -configFile ./PivotTaxaTBTHDF5.xml
+module unload tassel/3.0
+
+```
