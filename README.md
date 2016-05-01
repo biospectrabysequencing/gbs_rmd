@@ -5,9 +5,7 @@
 Background
 =============
 
-This repository contains a workshop that Marcus Davy gave on 20 Feb 2014 in Palmy. Marcus used moa to streamline the analysis. This version is exactly th same workshop except
-that it uses knitr as moe seems a wee bit out of date and not maintained these days. This version also uses modules. If you don't have modules available (which you really should) then remove
-the module call from your knitr scripts. As long as the system finds tassel 3 you are fine. 
+This repository contains a workshop that Marcus Davy gave on 20 Feb 2014 in Palmy. [Moa](https://github.com/mfiers/Moa) was used to streamline the analysis. This version is exactly the same workshop except that it uses [knitr](https://github.com/yihui/knitr) as Moa seems a wee bit out of date and not maintained these is not [actively](https://github.com/mfiers/Moa/commits/moa.0.11) maintained. This version also uses modules. If you don't have modules available (which you really should) then remove the module call from your knitr scripts. As long as the system finds tassel 3 you are fine. 
 
 
 Prerequisites
@@ -42,7 +40,7 @@ The pdf for the exercise is also available at;
 Run all
 ============
 
-You can run teh whole pipeline by calling the run_all.R script in the main directory. Might not be advisable at this stage though.
+You can run the whole pipeline by calling the `run_all.R` script in the main directory. Might not be advisable at this stage though.
 
 ```
 ## Cloning the repository
@@ -77,7 +75,7 @@ The GBS workshop in Palmerston North videos are available on youtube;
 
 * [![online](http://img.youtube.com/vi/NGqKJ0TnL9o/0.jpg)](https://www.youtube.com/watch?v=NGqKJ0TnL9o&list=PLCLuDSotcmhL2zP1_mUIhfw8vAWX-v1yT)
  
-S ee also
+See also
 ========
 
 * https://github.com/mfiers/Moa
